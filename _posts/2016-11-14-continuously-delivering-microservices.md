@@ -11,7 +11,7 @@ Miroservice Overview: Software architectural style where applications are compos
 
 Got started by the team giving us a workshop folder containing a box, and we used Vagrant to get it up and ssh into it. Just going through the steps in the slides to setup everything... The journey is the following: 
 
-![Journey Today](./Journey Today.png)
+![Journey Today](https://s3.amazonaws.com/oreilly-conference/Journey+Today.png?X-Amz-Date=20161114T185935Z&X-Amz-Expires=300&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Signature=3799c5016484cc2bc456b5fb8a7291f7006ef88d7f7fcd50469f89c3f74cd549&X-Amz-Credential=ASIAJSU6I3JQPV6SKENQ/20161114/us-east-1/s3/aws4_request&X-Amz-SignedHeaders=Host&x-amz-security-token=FQoDYXdzEMT//////////wEaDDLa0GkZn6Ub0xMimSL%2BAYiI1UpqXGacFQLxYQ941uMEBVEAPsCrRj35eDU7BcVGZonJvCz5fzKopij7mkMZj6yktsS3B5KtzXPUcJiBIuPqXiWRkyT71CZr8YihJjZiYO0Ch3aoogmH0OwpO/yv0ha/iYVoZ89%2BS6ngBDFh5nOilMWQYunARvBsOVES%2Bg3ODuMBY/B5kaqKa/QiplZZQKxYdfLCaRoAUIPaolT3i1ULBxcsic77U2jDwLDBuQntBPJfUzUj8%2B2AK6MrMadJIbihgUmDkAlMmgT9eZsbHVUDQPOxi7yydigRwgd6%2BIe0x8aZpExrg9AsNcenDcmF3linNxfcT282%2BIafvpRTKKiSqMEF)
 
 ### Purpose
 
