@@ -11,7 +11,7 @@ Miroservice Overview: Software architectural style where applications are compos
 
 Got started by the team giving us a workshop folder containing a box, and we used Vagrant to get it up and ssh into it. Just going through the steps in the slides to setup everything... The journey is the following: 
 
-![Journey Today]({{ASSET_PATH}}/Journey Today.png)
+![Journey Today](./Journey Today.png)
 
 ### Purpose
 
@@ -20,7 +20,7 @@ Can we actually deploy with confidence the monolith before being confident to de
 
 Problems we usually face: It can be challenging to know when something is broken when you have 50 microservices. Is it version related? Is it because of a commit? Etc. That's why a good CI pipeline is important here to be able to quickly visualize all our microservice. With Go-CD, we have a **visual** representation of our CD system.
 
-![Image of Go-CD Visual Representation]({{ASSET_PATH}}/go-pipeline-visual-diagram.png)
+![Image of Go-CD Visual Representation](./go-pipeline-visual-diagram.png)
 
 
 ### Tutorial
@@ -42,7 +42,7 @@ We're taking a Musik Shop monolith app, and will it break it down into microserv
 ### Module 2
 The overview of our system can be seen here:
 
-![Overview Module 2]({{ASSET_PATH}}/Overview Module 2.png)
+![Overview Module 2](./Overview Module 2.png)
 
 Basically, in order to extract our review service in our shop-app, we change from getStarRatingsLocalMethod() to getStarRatingsFromReviewService(). 
 Notice as well the difference in Ports (8090 Vs 8082)
