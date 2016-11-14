@@ -27,7 +27,19 @@ Docker offers the best of both worlds:
 
 Each container's processes are visible on the host. 
 
-Containers will run through container engines, such as Docker. They are platform that will offer a lot of tools to build/run/deploy containers and let them talk to each other 
+Containers will run through container engines, such as Docker. They are platform that will offer a lot of tools to build/run/deploy containers and link components together. Docker is great at enabling finer-grained, microservice architecture
 
-Docker is great at enabling finer-grained, microservice architecture
+Docker Images contains:
+- a minimal OS distribution
+- dependencies
+- a single application or service
 
+Docker Images: Immutable Layers that build on top of each other. 
+Docker registries are where you can push and pull your docker images
+
+### Takeaways
+
+- Try to keep your Docker images small (e.g. base them on busybox, alpine, or debian base images)
+- Don't use Docker containers like full blown VMs - Run a single process/service in each Docker container
+- Use Docker Networks as an alternative to legacy links for communicating between containers
+- Consider using OS service scripts* (e.g. Upstart, Systemd) to manage your containers (e.g. pass environment variables, keep them running, start on boot and/or in a specific order)
