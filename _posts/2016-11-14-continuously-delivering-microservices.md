@@ -68,3 +68,8 @@ Possible Domains:
 
 Purpose of microservice is: we can take down a microservice and still have a running service. What if you destoy the customer accounts microservice? Everything will fall apart! so it should **not** be a domain.
 So we can change our design where we put accountId and Credit card details on Flight bookings, Driving License in Car rentals, and AccountId and mailing Address in Rewards. Our source of truth will be found in each of these domains.
+
+### Consumer Driven Contracts
+When having a lot of microservices, we have more overhead for testing since a lot of components talk to each other.
+
+Now for consumer dirven contracts, we have a producer that provides `{"name": "Guy", age: "24"}` and then some consumers that has a contract with the producer. Consumer A might only use the name through contract A, consumer B uses age only through contract B, and consumer C uses both through Contract C. Now if Consumer C wants to change the contract so that it gets `firstName` instead of `name`, producer can definitely do that. But that will make contract A fail! So with CI, we can catch the test failing very quickly before production, and fix the bug.
