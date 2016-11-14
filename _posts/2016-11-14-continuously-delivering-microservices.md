@@ -47,7 +47,7 @@ The overview of our system can be seen here:
 Basically, in order to extract our review service in our shop-app, we change from `getStarRatingsLocalMethod()` to `getStarRatingsFromReviewService()`. 
 Notice as well the difference in Ports (8090 Vs 8082)
 
-### Domain Driven Design 
+### Domain Driven Design (DDD)
 To have ubiquitous language between tech and business logic. 
 
 #### Exercice
@@ -69,7 +69,41 @@ Possible Domains:
 Purpose of microservice is: we can take down a microservice and still have a running service. What if you destoy the customer accounts microservice? Everything will fall apart! so it should **not** be a domain.
 So we can change our design where we put accountId and Credit card details on Flight bookings, Driving License in Car rentals, and AccountId and mailing Address in Rewards. Our source of truth will be found in each of these domains.
 
-### Consumer Driven Contracts
-When having a lot of microservices, we have more overhead for testing since a lot of components talk to each other.
+Also, if you have 2 domains constantly talking to each other, maybe that is a signal that they should be merged into one cohesive domain (microservice)
+
+### Consumer Driven Contracts (CDC)
+When having a lot of microservices, we have more overhead for testing since a lot of components talk to each other (when we seperated them using domain driven design). This is where consumer drivent contracts enters. 
 
 Now for consumer dirven contracts, we have a producer that provides `{"name": "Guy", age: "24"}` and then some consumers that has a contract with the producer. Consumer A might only use the name through contract A, consumer B uses age only through contract B, and consumer C uses both through Contract C. Now if Consumer C wants to change the contract so that it gets `firstName` instead of `name`, producer can definitely do that. But that will make contract A fail! So with CI, we can catch the test failing very quickly before production, and fix the bug.
+
+### Wrap up
+Remember that extracting a lot of microservices is not always good! Sometimes it causes more problems than it solves. Remember that you'll have more error handling to do for example.
+With Microserice, you can chose the right tool/tech for the problem. Microservices have an advantage that the communication done through agnostic APIs. REST JSON is one of the most popular ways, but there are other ways. 
+
+Why micrservice now?
+
+- Infrastructure automation
+- Virtualization on demand
+- Continous Delivery
+- DDD
+
+Monolith: 
+It's actually a great starting point. Don't have to deal with more complicated complex. I just have one app. But as my app grows, my complexity increases and hard to work together with a team of 10 devs. The drawbacks for monolith is:
+
+- Complexity increases
+- Difficult to change
+- Low reusability
+- Slow to deploy
+- Testing takes time
+- High cognitive load (so many things that can break a whole monolith codebase, but for microservice, you focus more on specific domain)
+- Reliability and scale is hard
+
+Advantages of Microservice:
+
+- Decentralized governance
+- Flexibility of tool/tech
+- Standardize on integration, not platform 
+
+<img src="https://s3.amazonaws.com/oreilly-conference/decentralized+goverance.png" alt="Decentralized governance" style="width: 600px;"/>
+
+Following Conway's law, we change the way team in a company are structured. Intead of having a service team, UX team, dev team etc (which don't know much about each other), we now have "features team" consisting of devs, devops, UX etc... Each team owns a feature, and not an area of expertise. For example, we can have a feature team that takes care of payments.
