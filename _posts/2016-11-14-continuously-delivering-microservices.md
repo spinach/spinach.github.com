@@ -11,7 +11,7 @@ Miroservice Overview: Software architectural style where applications are compos
 
 Got started by the team giving us a workshop folder containing a box, and we used Vagrant to get it up and ssh into it. Just going through the steps in the slides to setup everything... The journey is the following: 
 
-![Journey Today](https://s3.amazonaws.com/oreilly-conference/Journey+Today.png?X-Amz-Date=20161114T185935Z&X-Amz-Expires=300&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Signature=3799c5016484cc2bc456b5fb8a7291f7006ef88d7f7fcd50469f89c3f74cd549&X-Amz-Credential=ASIAJSU6I3JQPV6SKENQ/20161114/us-east-1/s3/aws4_request&X-Amz-SignedHeaders=Host&x-amz-security-token=FQoDYXdzEMT//////////wEaDDLa0GkZn6Ub0xMimSL%2BAYiI1UpqXGacFQLxYQ941uMEBVEAPsCrRj35eDU7BcVGZonJvCz5fzKopij7mkMZj6yktsS3B5KtzXPUcJiBIuPqXiWRkyT71CZr8YihJjZiYO0Ch3aoogmH0OwpO/yv0ha/iYVoZ89%2BS6ngBDFh5nOilMWQYunARvBsOVES%2Bg3ODuMBY/B5kaqKa/QiplZZQKxYdfLCaRoAUIPaolT3i1ULBxcsic77U2jDwLDBuQntBPJfUzUj8%2B2AK6MrMadJIbihgUmDkAlMmgT9eZsbHVUDQPOxi7yydigRwgd6%2BIe0x8aZpExrg9AsNcenDcmF3linNxfcT282%2BIafvpRTKKiSqMEF)
+<img src="https://s3.amazonaws.com/oreilly-conference/Journey+Today.png" alt="Journey today" style="width: 600px;"/>
 
 ### Purpose
 
@@ -20,7 +20,7 @@ Can we actually deploy with confidence the monolith before being confident to de
 
 Problems we usually face: It can be challenging to know when something is broken when you have 50 microservices. Is it version related? Is it because of a commit? Etc. That's why a good CI pipeline is important here to be able to quickly visualize all our microservice. With Go-CD, we have a **visual** representation of our CD system.
 
-![Image of Go-CD Visual Representation](./go-pipeline-visual-diagram.png)
+<img src="https://s3.amazonaws.com/oreilly-conference/go-pipeline-visual-diagram.png" alt="Go-CD Visual Representation" style="width: 600px;"/>
 
 
 ### Tutorial
@@ -42,10 +42,29 @@ We're taking a Musik Shop monolith app, and will it break it down into microserv
 ### Module 2
 The overview of our system can be seen here:
 
-![Overview Module 2](./Overview Module 2.png)
+<img src="https://s3.amazonaws.com/oreilly-conference/Overview+Module+2.png" alt="Overview Module 2" style="width: 600px;"/>
 
-Basically, in order to extract our review service in our shop-app, we change from getStarRatingsLocalMethod() to getStarRatingsFromReviewService(). 
+Basically, in order to extract our review service in our shop-app, we change from `getStarRatingsLocalMethod()` to `getStarRatingsFromReviewService()`. 
 Notice as well the difference in Ports (8090 Vs 8082)
 
+### Domain Driven Design 
+To have ubiquitous language between tech and business logic. 
 
+#### Exercice
+Airways exercise: Sort out what do our domains look like. 
 
+Feature:
+
+- Rewards Program
+- Car Rental
+- Book a flight
+
+Possible Domains: 
+- Bookings
+- Customer accounts
+- Flights
+- Rewards
+- Cars
+
+Purpose of microservice is: we can take down a microservice and still have a running service. What if you destoy the customer accounts microservice? Everything will fall apart! so it should **not** be a domain.
+So we can change our design where we put accountId and Credit card details on Flight bookings, Driving License in Car rentals, and AccountId and mailing Address in Rewards. Our source of truth will be found in each of these domains.
