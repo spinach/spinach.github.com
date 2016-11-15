@@ -35,3 +35,14 @@ Example: Immagine a very difficult problem you solve. It is a problem you solved
 - Chaotic domain (Absense of constraints) (act-sense-respond): Immagine there is a room on fire. We're not gunna do analysis on why. We have to act quickly, "go to exit door quickly". Later on, you come back and analyse. 
 
 Disorder: When there is a problem and no one is dealing with the problem. 
+
+#### Closer look in Complex domain
+
+We look at experiment design:
+
+- Where are the actions you will take?
+- What are the expected signs of success?
+- What will you do to encourage more of these things?
+- What are some possible signs of failure?
+- What will you do when you encounter these?
+- How does this experiment support your overall objective?
