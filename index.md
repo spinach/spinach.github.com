@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Spinach's Blog
-tagline: where I jotdown everything 
+title: Spinach Blog
+tagline: jotting down my notes 
 ---
 {% include JB/setup %}
 
