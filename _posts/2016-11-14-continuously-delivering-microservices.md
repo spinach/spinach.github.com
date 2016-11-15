@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Continuously Delivering Microservices"
-description: ""
+description: "My notes at the o'reilly software architecture conference"
 category: 
-tags: []
+tags: [oreilly conference, tutorials]
 ---
 {% include JB/setup %}
 
