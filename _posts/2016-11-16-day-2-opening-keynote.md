@@ -3,9 +3,18 @@ layout: post
 title: "Design Pressures"
 description: ""
 category: 
-tags: []
+tags: [oreilly conference, sessions]
 ---
 {% include JB/setup %}
+
+## TL;DR
+
+- Quality attributes are both execution and monitoring
+- Focus on pipelined architecture rather than coarsed grained parallelism
+- Monitoring and telemetry will tend to drive performance and good observibility
+- Focus on buildng good systems that are cohesive, decoupled, instead of just learning the new fads.
+
+## Full Version
 
 We tend to
 
@@ -19,7 +28,7 @@ This will pressure the design to go in certain ways.
 Quality attributes: 
 
 - Exectution (Service): Security, performance, usability, reliability
-- How extensible is it, debuggable, testable. 
+- Monitoring: How extensible is it, debuggable, testable. 
 
 Typical requests:
 `IO -> Decode -> Compute -> Archive -> Encode -> IO`

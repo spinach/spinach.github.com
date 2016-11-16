@@ -3,9 +3,18 @@ layout: post
 title: "Microservices pros and cons"
 description: ""
 category: 
-tags: []
+tags: [oreilly conference, sessions]
 ---
 {% include JB/setup %}
+
+## TL;DR
+
+- Great talk to summarize pros and cons of microservices
+- For MS: Decentralised Governance, Scale & resilience, Replaceable services, Conway's law. If you chose MS: You need to be really good at CD, Quality assurance, monitoring. 
+- Vs MS: Cognitive complexity, monitoring hell, configuration complexity, Integration difficulties
+- Whether For MS or Vs MS, make sure to follow the more general principles such as seperation of concerns or SRP.
+
+## Full Version
 
 The famous ball of mud. The common architecture pattern.
 
@@ -18,10 +27,10 @@ Microservices are awesome Vs Microservices WTF!
 - For MS: Deployment independence. Components are deployed, features are released, and we're not gunna take everything down. Plus easier to kill old code.
 - Vs MS: Configuration complexity, because deployment is independent. In Monolith, it s one deployment. More tools for people to learn. BUT, for MS point, you can unify deployment and tools used. 
 - For MS: Replaceable services. Easy to replace modules. Much harder for monolith. Being **agile**.
-- Vs MS: Integration. MS promote coupling from application to integration architecture. Have to think about network, boundaries, latencies. It's Vs cohesion and coupling. We have to build modular monolith system in the fisrt place, no need to have distributed systems. 
+- Vs MS: Integration difficulties. MS promote coupling from application to integration architecture. Have to think about network, boundaries, latencies. It's Vs cohesion and coupling. We have to build modular monolith system in the fisrt place, no need to have distributed systems. 
 - For MS: Conway's law: Teams design are your first draft of your archtiecture. We want to think of teams first. Build team that reflects your software architecture
 
-If you chose: You need to be really good at CD, Quality assurance, monitoring. 
+If you chose MS: You need to be really good at CD, Quality assurance, monitoring. 
 
 Products, not Projects. Teams will keep on rotating. 
 

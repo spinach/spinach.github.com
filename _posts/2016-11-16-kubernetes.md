@@ -3,9 +3,17 @@ layout: post
 title: "Kubernetes"
 description: ""
 category: 
-tags: []
+tags: [oreilly conference, sessions]
 ---
 {% include JB/setup %}
+
+## TL;DR
+
+- Kubernetes can handle all your deployment, scalability and management of containers
+- It will take care of your resource utilities smartly
+- It offers tracing, logging, policies, metrics, storage, security
+
+## Full Version
 
 We must treat the datacenter itself as one massive warehouse-scale computer. We want our application to be global now. 
 
