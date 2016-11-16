@@ -25,6 +25,8 @@ Site performance is very important. A study was done on user behavior showing th
 
 Embrace Reactive Applications. This word was made famous in Sept.2014 in the Reactive Manifesto. 
 
+ReactiveX is a combination of the best ideas from the Observer pattern, the Iterator pattern, and functional programming
+
 4 principles in order to properly fulfill user demand. 
 Being reactive is not a library or framework. It is a set of design principles that your app should meet.
 
@@ -84,3 +86,7 @@ Focus on Intra-Service operations, for JVM. Some popular libraries:
 - RxJava
 - Akka
 - Reactor
+
+Observables are publishers at the end of the day. 
+
+The observable.zip method is interesting as it combine the emissions of multiple Observables together via a specified function and emit single items for each combination based on the results of this function
