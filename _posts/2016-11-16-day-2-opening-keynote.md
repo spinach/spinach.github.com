@@ -1,13 +1,12 @@
 ---
 layout: post
-title: "Day 2 Opening Keynote"
+title: "Design Pressures"
 description: ""
 category: 
 tags: []
 ---
 {% include JB/setup %}
 
-### Design Pressures
 We tend to
 
 - Fashion/trends
