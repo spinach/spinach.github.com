@@ -7,6 +7,15 @@ tags: [oreilly conference, sessions]
 ---
 {% include JB/setup %}
 
+## TL;DR
+
+- Problem: Thread Pool tough to work for async work + bad on resources
+- Solution: Reactive application: Observer pattern, iterator pattern, functional programming.
+- 4 Principles: responsive, resilient, elastic (scalable), message-driven.
+- Stream-based functional programming. Makes Async very easy
+
+## Full Version
+
 ### Problem
 
 1- Thread pool: Performance demands are always increasing. 
