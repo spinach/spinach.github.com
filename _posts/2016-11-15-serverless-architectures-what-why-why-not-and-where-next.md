@@ -7,6 +7,15 @@ tags: [oreilly conference, sessions]
 ---
 {% include JB/setup %}
 
+## TL;DR
+- The Serverless area is getting bigger and bigger. It is not just a fad. 
+- `Client -> API Gateway -> FaaS`
+- Some small companies reduce their infrastructure costs to nearly 0, especially when using free tier.
+- Some advantages: Reduced labor/infrastructure costs, increased scaling flexibility, shorter lead time for MVPs
+- Some disadvantages: Tooling and configuration, integration tests is hard, limitation to use of lambdas, stateless
+
+## Full Version
+
 The Serverless area is getting bigger and bigger. It is not just a fad. 
 
 Evolution of cloud:

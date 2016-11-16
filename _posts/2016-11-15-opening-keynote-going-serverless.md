@@ -7,6 +7,13 @@ tags: [oreilly conference, sessions]
 ---
 {% include JB/setup %}
 
+## TL;DR
+- Serverless: Function-as-a-service. We remove host instance and application process. We're kept with just operations
+- At Netflix: you build it, you run it. Prefer iteration over Big Bang. 
+- Chaos Engineering: Run crazy monkey that randomly kills services
+
+## Full Version
+
 Serverless is truly facinating, and will shake up the way we do things. 
 
 - Back to 1996, Servers were inside the office of the company offering the web service. 

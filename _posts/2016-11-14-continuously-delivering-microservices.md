@@ -7,6 +7,16 @@ tags: [oreilly conference, tutorials]
 ---
 {% include JB/setup %}
 
+## TL;DR
+- Miroservice Overview: Software architectural style where applications are composed of small, independent processes communicating with each other using language-agnostic APIs.
+- Can we actually deploy with confidence the monolith before being confident to deploy 100 microservices? 
+- Use CD Pipelines to automate your build process and provide feedback on production readiness of software
+- Domain Driven Design (DDD) Example of airways company: Customer should not be a domain. The info of a customer can be found in several domains
+- Consumer Driven Contracts (CDC) good way to implement and test
+- Conway's law important here
+
+## Full Version
+
 Miroservice Overview: Software architectural style where applications are composed of small, independent processes communicating with each other using language-agnostic APIs. Check online for characteristics.
 
 Got started by the team giving us a workshop folder containing a box, and we used Vagrant to get it up and ssh into it. Just going through the steps in the slides to setup everything... The journey is the following: 

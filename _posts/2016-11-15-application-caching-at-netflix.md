@@ -7,6 +7,15 @@ tags: [oreilly conference, sessions]
 ---
 {% include JB/setup %}
 
+## TL;DR
+- Netflix Pioneer of microservices
+- Caching team consists of 4 senior engineers, that handles caching for literally everything at Netflix (whether logins, profile movie etc)
+- EVCache is what they're currently using
+- Build resilient system because even AWS can fail on us.
+- Working on Moneta to reduce costs to 70%. 
+
+## Full Version
+
 90 seconds to impress you when using Netflix. This moment of truth. 
 
 Caches touch:
@@ -47,7 +56,7 @@ EVCache:
 
 To keep home personal page up to date, there is offline compute time every day that will do the computation and will put it in the EVCache. The EVCache is the boundary beetween the offline services and online services. 
 
-####Todo: Insert picture taken.
+<img src="https://s3.amazonaws.com/oreilly-conference/netflix+cache.JPG" alt="Netflix cache" style="width: 600px;"/>
 
 Polyglot clients: They've always been using Java that talks directly to EVCache. but they now put an http proxy so that anyone internally can write apps in python, ruby, go or anything, and talks through http rest to the EVCache.
 

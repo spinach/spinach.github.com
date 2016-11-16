@@ -9,11 +9,18 @@ tags: [oreilly conference, tutorials]
 
 First before tackling any problem and trying to solve it, first make sure to identify exactly what the problem is. 
 
+## TL;DR
+- System: `Fragile < Robust < Resilient < Antifragile`
+- Differient betwen problem domains: complex, complicated, obvious and chaotic
+- Dealing with complex domain using experiment design
+
+## Full Version
+
 ### the Cynefin Framework
 
 Systems, in order of how good they are
 
-Fragile < Robust < Resilient < Antifragile
+`Fragile < Robust < Resilient < Antifragile`
 
 - Fragile: Can withstand only small challenges
 - Robust: Can withstand good challenges

@@ -7,6 +7,15 @@ tags: [oreilly conference, tutorials]
 ---
 {% include JB/setup %}
 
+## TL;DR
+- Containerization: Package everything into a container which makes it easy for anyone to "transport" this container.
+- Container's advantages: Runs in isolation and in virtualized systems.
+- Containers will run through container engines, such as Docker.
+- Docker Images: Immutable Layers that build on top of each other.
+- Don't use Docker containers like full blown VMs. Run a single process/service in each Docker container
+
+## Full Version
+
 Challenges with modern architectures:
 
 - Multiple tech stacks

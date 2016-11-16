@@ -7,6 +7,20 @@ tags: [oreilly conference, sessions]
 ---
 {% include JB/setup %}
 
+## TL;DR
+- Dynamic equilibrium: we can't predict the future, so what can we do? We can have a plan that is adaptable, evolvable
+- Dimensions of architecture. from 1 in monolith to n in microservices
+- Composoability will let you build better evolvable systems
+- Apply incremental change: Wire them into continous deployment pipeline. 
+- Identify fitness functions, whether atomic or hollistic. Can be automated or manual, but automated is better
+- Bring the pain forward
+- Consumer driven contracts good for testing
+- We have to be `reactive` to unknown unknowns, rather than `predictive`. 
+- Switch to domani-centric architectures
+- Feature Toggles: A/B testing. Facebook a good example
+
+## Full Version
+
 ilities example:
 
 - Scability
@@ -35,7 +49,7 @@ Features are released and then applications consist of routing
 **Fitness functions**: determines if the next version is better than last version. It is an objective function that measure some metric. So we define architecture fitness functions in order to make sure we evolved in the positive way, whether it is using metrics or tests.
 We have atomic functions, which are application level functions that does one thing. And we have holistic fitness function which runs the interaction between the different services (integration tests are an example).
 
-Bring the pain forward: Pain increases exponentially with the time you wait to act (sync codebase, deploy to prod). Hence Continious delivery. 
+**Bring the pain forward**: Pain increases exponentially with the time you wait to act (sync codebase, deploy to prod). Hence Continious delivery. 
 
 Deployment pipeline: directly run your build trhought UTs, function test etc.. and automate all these things. 
 
@@ -60,7 +74,7 @@ We rarely change persistence layer, and always change to customer demands. So th
 Evolutionary architecture:
 
 - Choose dimensions you care about for evolution, "the ilities"
-- Identify fitness functions, whether atomic or hollistic. Can be automated or manual, but automated
+- Identify fitness functions, whether atomic or hollistic. Can be automated or manual, but automated is better
 - Apply incremental change: Wire them into continous deployment pipeline. 
 - Feature Toggles: A/B testing. Facebook a good example
 

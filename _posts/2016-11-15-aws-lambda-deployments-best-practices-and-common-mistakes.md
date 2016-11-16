@@ -7,6 +7,13 @@ tags: [oreilly conference, sessions]
 ---
 {% include JB/setup %}
 
+## TL;DR
+- AWS Lambda is the first in the FaaS world
+- Plenty of Lambda Event Sources from http request to chron jobs to emails
+- Good for tasks such as image processing, scheduling batch work and low volume website features
+
+## Full Version
+
 Serverless framework of Amazon.
 
 Lambda Event Sources:

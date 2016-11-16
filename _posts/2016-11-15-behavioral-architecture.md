@@ -7,6 +7,14 @@ tags: [oreilly conference, sessions]
 ---
 {% include JB/setup %}
 
+## TL;DR
+- We think we make completely logical choices. But we're biased
+- Some popular biases: confirmation bias, endowment bias, availibility bias
+- Understand what your biases are, and find people that have contrary opinions because they are going to balance that bias
+- Logic is the beginning of wisdom, not the end
+
+## Full Version
+
 We think we make completely logical choices. But actually, we are emotional humans, we're not completely logical all the time. We're... biased.
 
 - **Confirmation bias**: we tend to search for stuff to confirm our beliefs. Google doesn't help with that cause it will show you results based on your bias.
