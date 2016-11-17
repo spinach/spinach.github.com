@@ -6,3 +6,9 @@ category:
 tags: [oreilly conference, sessions]
 ---
 {% include JB/setup %}
+
+## TL;DR
+
+- 
+
+## Full Version
