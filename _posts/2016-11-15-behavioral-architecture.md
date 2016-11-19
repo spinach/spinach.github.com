@@ -13,6 +13,8 @@ tags: [oreilly conference, sessions]
 - Understand what your biases are, and find people that have contrary opinions because they are going to balance that bias
 - Logic is the beginning of wisdom, not the end
 
+<br/>
+
 ## Full Version
 
 We think we make completely logical choices. But actually, we are emotional humans, we're not completely logical all the time. We're... biased.

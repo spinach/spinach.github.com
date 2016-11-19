@@ -14,6 +14,8 @@ tags: [oreilly conference, sessions]
 - Some advantages: Reduced labor/infrastructure costs, increased scaling flexibility, shorter lead time for MVPs
 - Some disadvantages: Tooling and configuration, integration tests is hard, limitation to use of lambdas, stateless
 
+<br/>
+
 ## Full Version
 
 The Serverless area is getting bigger and bigger. It is not just a fad. 

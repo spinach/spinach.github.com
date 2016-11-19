@@ -14,6 +14,8 @@ tags: [oreilly conference, tutorials]
 - Docker Images: Immutable Layers that build on top of each other.
 - Don't use Docker containers like full blown VMs. Run a single process/service in each Docker container
 
+<br/>
+
 ## Full Version
 
 Challenges with modern architectures:

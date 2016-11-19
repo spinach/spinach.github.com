@@ -13,6 +13,8 @@ tags: [oreilly conference, sessions]
 - It will take care of your resource utilities smartly
 - It offers tracing, logging, policies, metrics, storage, security
 
+<br/>
+
 ## Full Version
 
 We must treat the datacenter itself as one massive warehouse-scale computer. We want our application to be global now. 

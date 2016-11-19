@@ -12,6 +12,8 @@ tags: [oreilly conference, sessions]
 - At Netflix: you build it, you run it. Prefer iteration over Big Bang. 
 - Chaos Engineering: Run crazy monkey that randomly kills services
 
+<br/>
+
 ## Full Version
 
 Serverless is truly facinating, and will shake up the way we do things. 

@@ -14,6 +14,8 @@ tags: [oreilly conference, sessions]
 - Security policies will help you in securing your system
 - Event Driven Design the way to go
 
+<br/>
+
 ## Full Version
 
 Agility:

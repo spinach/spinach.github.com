@@ -14,6 +14,8 @@ tags: [oreilly conference, sessions]
 - Vs MS: Cognitive complexity, monitoring hell, configuration complexity, Integration difficulties
 - Whether For MS or Vs MS, make sure to follow the more general principles such as seperation of concerns or SRP.
 
+<br/>
+
 ## Full Version
 
 The famous ball of mud. The common architecture pattern.

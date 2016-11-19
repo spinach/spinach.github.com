@@ -14,6 +14,9 @@ tags: [oreilly conference, sessions]
 - Customise: Production variations techniques, Instance attributes, Startup Variations Examples
 - Scrutinize: Monitor growth
 
+<br/>
+
+
 ## Full Version
 
 Overreacting to changes leads to:

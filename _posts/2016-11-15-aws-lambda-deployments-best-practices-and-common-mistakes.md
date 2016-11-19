@@ -12,6 +12,8 @@ tags: [oreilly conference, sessions]
 - Plenty of Lambda Event Sources from http request to chron jobs to emails
 - Good for tasks such as image processing, scheduling batch work and low volume website features
 
+<br/>
+
 ## Full Version
 
 Serverless framework of Amazon.

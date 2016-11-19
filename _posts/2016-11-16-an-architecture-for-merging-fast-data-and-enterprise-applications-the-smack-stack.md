@@ -14,6 +14,8 @@ tags: [oreilly conference, sessions]
 - Good synergy between Fast data and microservices, same design principles needed
 - Streaming pipelines > 3-tier architecture
 
+<br/>
+
 ## Full Version
 
 Hadoop:

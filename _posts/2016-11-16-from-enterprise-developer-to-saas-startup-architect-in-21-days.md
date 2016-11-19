@@ -13,6 +13,8 @@ tags: [oreilly conference, sessions]
 - Start like a project, Act as a company
 - Lean canvas software plan is a cool tool to use to explain your business
 
+<br/>
+
 ## Full Version
 
 Being an enterprise archtect (small scope) is so much different than startup archtiect (taking care of full stack). Being good at a few thing Vs having to deal with everything. 

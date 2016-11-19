@@ -14,6 +14,8 @@ tags: [oreilly conference, sessions]
 - Build resilient system because even AWS can fail on us.
 - Working on Moneta to reduce costs to 70%. 
 
+<br/>
+
 ## Full Version
 
 90 seconds to impress you when using Netflix. This moment of truth. 

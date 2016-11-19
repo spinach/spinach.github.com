@@ -14,6 +14,8 @@ First before tackling any problem and trying to solve it, first make sure to ide
 - Differient betwen problem domains: complex, complicated, obvious and chaotic
 - Dealing with complex domain using experiment design
 
+<br/>
+
 ## Full Version
 
 ### the Cynefin Framework

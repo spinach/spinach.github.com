@@ -14,6 +14,8 @@ tags: [oreilly conference, sessions]
 - 4 Principles: responsive, resilient, elastic (scalable), message-driven.
 - Stream-based functional programming. Makes Async very easy
 
+<br/>
+
 ## Full Version
 
 ### Problem

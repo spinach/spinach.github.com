@@ -19,6 +19,8 @@ tags: [oreilly conference, sessions]
 - Switch to domani-centric architectures
 - Feature Toggles: A/B testing. Facebook a good example
 
+<br/>
+
 ## Full Version
 
 ilities example:

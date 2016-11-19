@@ -14,6 +14,8 @@ tags: [oreilly conference, sessions]
 - Monitoring and telemetry will tend to drive performance and good observibility
 - Focus on buildng good systems that are cohesive, decoupled, instead of just learning the new fads.
 
+<br/>
+
 ## Full Version
 
 We tend to

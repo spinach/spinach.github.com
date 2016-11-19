@@ -15,6 +15,8 @@ tags: [oreilly conference, tutorials]
 - Consumer Driven Contracts (CDC) good way to implement and test
 - Conway's law important here
 
+<br/>
+
 ## Full Version
 
 Miroservice Overview: Software architectural style where applications are composed of small, independent processes communicating with each other using language-agnostic APIs. Check online for characteristics.
