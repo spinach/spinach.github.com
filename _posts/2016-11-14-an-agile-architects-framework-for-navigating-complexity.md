@@ -55,3 +55,6 @@ We look at experiment design:
 - What are some possible signs of failure?
 - What will you do when you encounter these?
 - How does this experiment support your overall objective?
+
+## Slides
+[www.softwarearchitecturecon.com/slides](softwarearchitecturecon.com/slides)
