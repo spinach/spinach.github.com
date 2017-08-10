@@ -1,4 +1,4 @@
-# About
+# 🌐 About
 
 This is a personal blog made using Jekyll-Boostrap. 
 
