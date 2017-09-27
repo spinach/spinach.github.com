@@ -5,7 +5,7 @@ tagline: jotting down my notes
 ---
 {% include JB/setup %}
 
-### Checkout my notes on the o'reilly software architecture conference in SF, 2016.
+### Just taking notes of the conferences I go to.
 
 <ul class="posts">
   {% for post in site.posts %}
